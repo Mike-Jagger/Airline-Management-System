@@ -1,0 +1,31 @@
+Airline_
+	|
+	v
+	-> name
+	-> flight
+Flight__
+	|
+	v
+	-> number
+	-> rows
+	-> column
+	-> head (list of passenger nodes)
+
+	-> node_ 
+		|
+		v
+		-> passenger
+		-> next
+Passenger_______
+		|
+		v
+		-> fname
+		-> lname
+		-> phone
+		-> seat
+		-> id
+Seat____
+	|
+	v
+	-> row
+	-> col
